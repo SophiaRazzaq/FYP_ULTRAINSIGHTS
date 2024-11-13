@@ -1,26 +1,40 @@
 {
-  "name": "fyp_ultrainsights",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
-  },
-  "packageManager": "pnpm@9.13.0+sha512.beb9e2a803db336c10c9af682b58ad7181ca0fbd0d4119f2b33d5f2582e96d6c0d93c85b23869295b765170fbdaa92890c0da6ada457415039769edf3c959efe"
+	"name": "fyp_ultrainsights",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"lint": "biome check"
+	},
+	"dependencies": {
+		"@mantine/carousel": "^7.14.0",
+		"@mantine/charts": "^7.14.0",
+		"@mantine/core": "^7.14.0",
+		"@mantine/dates": "^7.14.0",
+		"@mantine/dropzone": "^7.14.0",
+		"@mantine/form": "^7.14.0",
+		"@mantine/hooks": "^7.14.0",
+		"@mantine/modals": "^7.14.0",
+		"@mantine/notifications": "^7.14.0",
+		"dayjs": "^1.11.13",
+		"embla-carousel-react": "^7.1.0",
+		"next": "15.0.3",
+		"react": "18.3.1",
+		"react-dom": "18.3.1",
+		"recharts": "2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"postcss": "^8.4.49",
+		"postcss-preset-mantine": "^1.17.0",
+		"postcss-simple-vars": "^7.0.1",
+		"tailwindcss": "^3.4.1",
+		"typescript": "^5"
+	},
+	"packageManager": "pnpm@9.13.0+sha512.beb9e2a803db336c10c9af682b58ad7181ca0fbd0d4119f2b33d5f2582e96d6c0d93c85b23869295b765170fbdaa92890c0da6ada457415039769edf3c959efe"
 }
