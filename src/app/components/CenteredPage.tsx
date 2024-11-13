@@ -1,16 +1,20 @@
 import { NAV_HEIGHT } from "@/constants";
-import { Box } from "@mantine/core";
+import { Flex } from "@mantine/core";
 
 const CenteredPage: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
   return (
-    <Box
-      className="flex justify-center items-center text-center w-full"
-      style={{ minHeight: `calc(100vh - 2*${NAV_HEIGHT})` }}
+    <Flex
+      mih={`calc(100vh - 2*${NAV_HEIGHT})`}
+      justify="center"
+      align="center"
+      direction="row"
+      wrap="wrap"
+      w="100%"
     >
       {children}
-    </Box>
+    </Flex>
   );
 };
 

@@ -4,6 +4,7 @@ import { NAV_HEIGHT } from "@/constants";
 import { AppShell, Box, Burger } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import type React from "react";
+import Navbar from "./Navbar";
 
 const Shell: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [opened, { toggle }] = useDisclosure();
@@ -25,7 +26,9 @@ const Shell: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           <p className="m-4">UltraInsights</p>
         </Box>
       </AppShell.Header>
-      <AppShell.Navbar p="md">Navbar</AppShell.Navbar>
+      <AppShell.Navbar p="md">
+        <Navbar />
+      </AppShell.Navbar>
       <AppShell.Main>{children}</AppShell.Main>
     </AppShell>
   );
