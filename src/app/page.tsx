@@ -3,7 +3,7 @@ import CenteredPage from "./components/CenteredPage";
 const Home = () => {
   return (
     <CenteredPage>
-      <p>Hello</p>
+      <p>Hellooooooooooooooo</p>
     </CenteredPage>
   );
 };
