@@ -19,9 +19,13 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+        "@/fonts/*": ["src/assets/fonts/*"],
+        "@/styles/*": ["src/styles/*"],
+        "@/components/*": ["src/components/*"]
+      
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/appointment"],
   "exclude": ["node_modules"]
 }

@@ -1,4 +1,4 @@
-import CenteredPage from "./components/CenteredPage";
+import CenteredPage from "../components/CenteredPage";
 
 const Home = () => {
   return (

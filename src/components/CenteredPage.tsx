@@ -1,4 +1,4 @@
-import { NAV_HEIGHT } from "@/constants";
+import { NAV_HEIGHT } from "@/types/constants";
 import { Flex } from "@mantine/core";
 
 const CenteredPage: React.FC<{ children: React.ReactNode }> = ({
